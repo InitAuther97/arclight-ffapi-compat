@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.initauther97.afc.mixin",
+  "target": "@env(DEFAULT)",
+  "setSourceFile": true,
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "conformVisibility": true,
+    "requireAnnotations": false
+  },
+  "mixinPriority": 555,
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerLoginPacketListenerImplMixin"
+  ]
+}
